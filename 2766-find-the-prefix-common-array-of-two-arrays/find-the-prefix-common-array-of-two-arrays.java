@@ -13,7 +13,7 @@ class Solution {
 
             for(int element : seta){
                 if(setb.contains(element)){
-                    ++prefix_count;
+                    prefix_count++;
                 }
             }
 
