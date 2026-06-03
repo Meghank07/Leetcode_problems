@@ -5,7 +5,7 @@ class Solution {
             list.add(new ArrayList<>());
         }
         for(int[] ad : prerequisites){
-            list.get(ad[0]).add(ad[1]);
+            list.get(ad[1]).add(ad[0]);
         }
         int[] state = new int[numCourses];
         for(int i = 0 ; i < numCourses ; i++){
